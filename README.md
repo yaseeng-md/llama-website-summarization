@@ -44,19 +44,3 @@ In a world flooded with unstructured and noisy web content, users struggle to ex
 | Inference Time         | < 2 seconds/article           |
 | Model Size Reduction   | 40–60% via LoRA               |
 | Human Eval Score       | > 4.0 / 5.0 on summary quality|
-
----
-
-## 📦 Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/yaseeng-md/llama-website-summarization.git
-cd llama-website-summarization
-
-# (Optional) Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
